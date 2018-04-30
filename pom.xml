@@ -68,13 +68,13 @@
 
 <distributionManagement>
 	<repository>
-		<id>release</id>
+		<id>Release</id>
 		<name>drelease</name>
 		<url>http://35.227.90.255:8081/repository/drelease/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>snapshot</id>
+		<id>Snapshot</id>
 		<name>dsnapshot</name>
 		<url>http://35.227.90.255:8081/repository/dsnapshot/</url>
 	</snapshotRepository>
