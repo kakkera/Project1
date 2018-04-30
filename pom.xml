@@ -68,15 +68,15 @@
 
 <distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://<nexus-ip>:8081/repository/maven-releases/</url>
+		<id>release</id>
+		<name>drelease</name>
+		<url>http://35.227.90.255:8081/repository/drelease/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://<nexus-ip>:8081/repository/maven-snapshots/</url>
+		<id>snapshot</id>
+		<name>dsnapshot</name>
+		<url>http://35.227.90.255:8081/repository/dsnapshot/</url>
 	</snapshotRepository>
 </distributionManagement>
 
